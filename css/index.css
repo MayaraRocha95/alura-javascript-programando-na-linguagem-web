@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DM+Sans:ital@1&family=Edu+SA+Beginner:wght@500&family=Gentium+Plus:ital@1&family=Graduate&family=Indie+Flower&family=Kanit&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@600&family=Nuosu+SIL&family=Pacifico&family=Roboto+Slab&family=Source+Serif+Pro:ital,wght@1,600&family=Vesper+Libre&display=swap');
 *{
 	box-sizing: border-box;
  }
@@ -8,21 +9,25 @@ body{
 }
 
 header{
-	background-color: #333;
-	height: 3em;
+	background-color:darkgreen;
+	height: 5em;
 	color: #FFF;
 	margin-bottom: 1em;
+	font-family: 'Vesper Libre', serif;
+ text-align: right;
 }
 
 header h1{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+
 }
 header h2{
 	font-size: 2em;
 	display:inline-block;
 	vertical-align:	middle;
+
 }
 
 header .container:before{
@@ -49,6 +54,7 @@ section h2{
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: .5em;
+	font-family: 'Vesper Libre', serif;
 }
 
 table{
@@ -67,7 +73,7 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: rgb(173, 209, 170);
 }
 
 label{
