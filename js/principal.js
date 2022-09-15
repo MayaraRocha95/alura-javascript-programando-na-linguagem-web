@@ -19,15 +19,17 @@ for (var i = 0; i < pacientes.length; i++) {
     var alturaEhValida = true;
 
     if (peso <= 0 || peso >= 1000) {
-        console.log("Peso inválido!");
         pesoEhValido = false;
-        tdImc.textContent = "Peso inválido";
+        tdImc.textContent = "Peso Inválido";
+        paciente.classList.add("paciente-invalido")//assim já é umaboa prática
+       
     }
 
     if (altura <= 0 || altura >= 3.00) {
-        console.log("Altura inválida!");
         alturaEhValida = false;
-        tdImc.textContent = "Altura inválida";
+        tdImc.textContent = "Altura Inválida";
+        paciente.style.fontWeight = "bold"; // pode chamar assim, mas não é o modo correto
+        paciente.style.backgroundColor = "lightcoral";
     }
 
   if (alturaEhValida && pesoEhValido) {
