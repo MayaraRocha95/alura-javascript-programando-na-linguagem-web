@@ -33,8 +33,14 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
   if (alturaEhValida && pesoEhValido) {
-        var imc = peso / (altura * altura);
-        tdImc.textContent = imc.toFixed(2);// toFixed para deixar duas casas decimais no meu imc
+        var imc = calculaImc(peso,altura); 
+        tdImc.textContent = imc;// toFixed para deixar duas casas decimais no meu imc
     }
 }
+function calculaImc(peso,altura) {
+    var imc = 0;
 
+    imc= peso / (altura * altura);
+
+    return imc.toFixed(2);
+}
