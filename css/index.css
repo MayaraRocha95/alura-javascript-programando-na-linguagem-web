@@ -111,8 +111,9 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	font-weight: bold;
+	background-color: rgb(75, 137, 70);
+	border-color:darkgreen;
 	width: 20%;
     display: block;
     clear: both;
